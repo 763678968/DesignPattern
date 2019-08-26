@@ -1,7 +1,7 @@
-package Composite;
-
-public class RedheadDuck implements Quackable {
-    public void quack() {
-        System.out.println("Quack");
-    }
-}
+//package Composite;
+//
+//public class RedheadDuck implements Quackable {
+//    public void quack() {
+//        System.out.println("Quack");
+//    }
+//}
