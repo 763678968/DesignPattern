@@ -3,8 +3,11 @@ package Test;
 public class Client {
 
     public static void main(String[] args) {
-        SimpleFactory simpleFactory = new SimpleFactory();
-        Product product = simpleFactory.createProduct(1);
-        // do something with the product
+        StringBuilder sb = new StringBuilder();
+        final int count = 26;
+        for (int i = 0; i < count; i++) {
+            sb.append((char) ('a' + i));
+        }
+        System.out.println(sb.toString());
     }
 }
